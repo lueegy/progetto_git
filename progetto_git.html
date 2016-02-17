@@ -1,0 +1,81 @@
+<html>
+<title>GIT project</title>
+<center><img src="http://ih0.redbubble.net/image.13015449.4748/fc,550x550,orange.jpg" width=300 height=300></center>
+<body bgcolor="#FF4F00">
+</center>
+<font color="#FFFFFF">
+<hr>
+<div>
+<br><center><h1><u><font face="Verdana">CHE COS'E' GIT</font></u></h1></center>
+<center><img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAARYAAAAJGE1NTNmYzM4LWZlOGMtNDEzOS1hMmU2LWQ1ODRkMGRmY2UyMg.jpg" width=800 height=400></center>
+<h3>GIT è un sistema di software di controllo di versione distribuito, il che vuol dire che permette di tenere traccia delle modifiche apportate al codice sorgente senza dover usare un server centrale. 
+Grazie a questa "feature" vari progetti software usano GIT per tale attività. GIT serve principalmente come version control system (controllo di versione distribuito) il quale può servire nel caso di lavoro allo stesso progetto da parte di due o più sviluppatori ed è possibile visualizzare chi ha cambiato qualcosa, quando e perchè, oppure se per caso viene cancellato qualcosa si riesce a recuperare ciò che prima, senza usare GIT, si poteva considerare perduto.
+</div>
+<hr>
+<div>
+<br><center><h1><u><font face="Verdana">STORIA DI GIT</font></u></h1></center>
+<center><img src="http://lucascalvi.it/uploads/images/126git.jpg" width=800 height=400></center>
+<h3>Come per molte grandi cose della vita, Git è nato con un po' di distruzione creativa e polemiche infuocate. Il kernel di Linux è un progetto software open source di grande portata. Per buona parte del tempo (1991-2002) della manutenzione del kernel Linux le modifiche al software venivano passate sotto forma di patch e file compressi. Nel 2002, il progetto del kernel Linux iniziò ad utilizzare un sistema DVCS proprietario chiamato BitKeeper.
+Nel 2005 il rapporto tra la comunità che sviluppa il kernel Linux e la società commerciale che aveva sviluppato BitKeeper si ruppe, e fu revocato l'uso gratuito di BitKeeper. Ciò indusse la comunità di sviluppo di Linux (e in particolare Linus Torvalds, il creatore di Linux) a sviluppare uno strumento proprio, basandosi su alcune delle lezioni apprese durante l'utilizzo di BitKeeper. Alcuni degli obiettivi del nuovo sistema erano i seguenti:
+<ul>
+<li>Velocità</li>
+<li>Design semplice</li>
+<li>Ottimo supporto allo sviluppo non-lineare (migliaia di rami paralleli)</li>
+<li>Completamente distribuito</li>
+<li>Capacità di gestire, in modo efficiente (velocità e dimensione dei dati), grandi progetti come il kernel Linux</li>
+</ul>
+Fin dalla sua nascita nel 2005 Git si è evoluto e maturato per essere facile da usare e tuttora mantiene le sue qualità iniziali. È incredibilmente veloce, è molto efficiente con progetti grandi e ha un incredibile sistema di ramificazioni, per lo sviluppo non lineare.
+<br>Fonti prese dal sito ufficiale di GIT. Click <a href="https://git-scm.com/book/it/v1/Per-Iniziare-Una-Breve-Storia-di-Git">qui</a> per visualizzare la fonte.</h3>
+</div>
+<hr>
+<div>
+<br><center><h1><u><font face="Verdana">VANTAGGI NELL'USARE GIT</font></u></h1></center>
+<center><img src="http://img01.store.sogou.com/net/a/04/link?appid=100520031&w=710&url=http://mmbiz.qpic.cn/mmbiz/GV9yQEsgTSDTtHn5Y74sxnoVog7AQttZTngkeS6F4prtpYzbQlmfUScNBkCcglKicWfu6WYwxWWj30XlEy8Tm4g/0?wx_fmt=jpeg" width=500 height=300></center>
+<h3>I principali vantaggi di GIT riguardante l'uso da parte degli sviluppatori o da parte dei semplici utenti sono:
+<ul>
+<li> Possibilità di tenere conto di una "libreria" dove è possibile tenere traccia dei file che sono stati modificati nel tempo </li>
+<li> Possibilità di confrontare quei file, e magari poter ripristinare una versione precedente </li>
+<li> Possibilità di creare una fusione di uno o più versioni dello stessco codice sorgente </li>
+<li> Possibilità di lavorare in diversi parti del codice sorgente da più sviluppatori senza rovinare il tutto. Avendo la possibilità di usare rami differenti </li>
+<li> Quando vengono sviluppati nuovi codici per il codice sorgente si ha la possibilità di fonderli insieme senza preoccuparsi se qualcosa viene cancellato dato che esiste uan "cronistoria" dove è possibile ritornare indietro </li>
+</ul>
+</h3>
+</div>
+<hr>
+<div>
+<br><center><h1><u><font face="Verdana">COME FUNZIONA GIT</font></u></h1></center>
+<br><center><img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/021314git_twitter.png?1426699534"></center>
+<br><h3>Git lavora con una serie di comandi, i quali permettono agli sviluppatori di utilizzare appieno tutto il potenziale di GIT
+Andiamo a vedere nel dettaglio i comandi principali:
+<ul>
+<br><li><u>CREARE LA REPOSITORY PER UN PROGETTO</u></li>
+Eseguendo il comando "git init" si andrà a creare il repository locale, dove noi lavoreremo
+<br><li><u>AGGIUNGERE I FILE DA INSERIRE NELLA VERSIONE SUCCESSIVA</u></li>
+eseguendo il comando "git add" si aggiungono tutti i file, vengono riconosciuti altri comandi
+per aggiungere ed aggiungono nello specifico delle singole cartelle o dei determinati file
+rispettivamente sono ("git add nomeCartella" ed "git add percorso/nomefile")
+<br><li><u>VISUALIZZARE LO "STATO" DEL CODICE</u></li>
+Eseguendo il comando "git status" si visualizza lo "stato" del codice, che viene diviso
+in 3 sezioni: i file che sono stati aggiunti tramite "add" rispetto la versione precedente,
+i file modificati ma che non verranno aggiunti nella prossima versione, ed infine
+mostra i file che non sono mai stati inseriti nel controllo versione.
+<br><li><u>VISUALIZZARE LE DIFFERENZE E LE MODIFICHE EFFETTUATE SUI FILE</u></li>
+Eseguendo il comando "git diff" , come suggerisce il nome, potremo andare a vedere 
+le differenze presenti tra due versioni del codice differenti.
+<br><li><u>INVIARE LE MODIFICHE</u></li>
+dopo aver aggiunto i file è possibile effettivamente "inviare" tali modifiche eseguendo
+il comando "git commit".
+<br><li><u>VISUALIZZARE LA CRONOLOGIA</u></li>
+E' possibile visualizzare la cronologia dei commit eseguendo il comando "git log"
+<br><li><u>CREARE UN BRANCH</u></li>
+Eseguendo il comando "git checkout -b nomeDelBranch" viene creato un nuovo branch,
+chiamato "nomeDelBranch", tutti i comandi di verifica effettuati si riferiranno al nuovo branch.
+Se si vuole tornare al ramo principale basta eseguire il comando "git checkout master".
+<br><li><u>FONDERE UN RAMO SECONDARIO (nomeBranch) CON UN RAMO PRINCIPALE (master)</u></li>
+Per poter fondere i due rami bisogna: essere sul master e usare il comando "git merge nomeDelBranch".
+</h3>
+</div>
+</ul>
+</font>
+</body>
+</html>
